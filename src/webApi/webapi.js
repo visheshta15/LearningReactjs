@@ -1,0 +1,6 @@
+local Storage
+session Storage
+setTimeout
+setInterval
+cookie
+clearInterval
