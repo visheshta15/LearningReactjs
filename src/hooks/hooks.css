@@ -2,6 +2,10 @@ p{
     margin: 0;
     padding: 0;
 }
+h3{
+    background-color: bisque;
+    border-bottom: 3px solid darksalmon;
+}
 
 h4{
     background-color: aquamarine;
