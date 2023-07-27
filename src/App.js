@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Hooks from './hooks/Hooks'
+import Compnents from './components/Compnents'
 function App() {
 
   return (
     <div>
-      <Hooks />
+      {/* <Hooks /> */}
+      <Compnents />
     </div>
   )
 }
