@@ -1,12 +1,16 @@
 import React, { Component } from 'react'
 import Hooks from './hooks/Hooks'
 import Compnents from './components/Compnents'
-function App() {
+import Pannel from './lifecycle/errorBounderies2/Pannel'
+import LifeCycle from './lifecycle/LifeCycle'
+
+function App(props) {
 
   return (
     <div>
       {/* <Hooks /> */}
-      <Compnents />
+      {/* <Compnents /> */}
+      <LifeCycle />
     </div>
   )
 }

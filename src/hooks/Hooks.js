@@ -7,6 +7,7 @@ import UseReducer from './3.useReducer/UseReducer'
 import UseRef from './4.useRef/UseRef'
 import UseContext from './7.useContext/UseContext'
 import UseMemo from './5.useMemo/UseMemo'
+import CustomHook from './8.customHooks/CustomHook'
 
 function Hooks() {
   return (
@@ -16,7 +17,8 @@ function Hooks() {
         {/* <UseReducer /> */}
         {/* <UseRef /> */}
         {/* <UseContext /> */}
-        <UseMemo />
+        {/* <UseMemo /> */}
+        <CustomHook />
     </div>
   )
 }
